@@ -5,6 +5,13 @@
     width: 100%;
 }
 
+body {
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .navbar li {
     display: inline-block;
     padding: 0 20px;
@@ -16,11 +23,17 @@
 }
 
 .banner {
-    background-color: #F2E8AA;
     color: #BA23E8;
+    font-family: 'Courier New', Courier, monospace;
     margin-top: 50px;
     text-align: center;
     padding: 100px 0;
+}
+
+#activityImage {
+  display: block;           /* makes it a block element */
+  margin: 20px auto;        /* centers horizontally */
+  max-width: 300px;         /* limit size */
 }
 
 #small-po {
